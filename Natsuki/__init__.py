@@ -186,7 +186,7 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
 
 print("+===============================================================+")
-print("|                           NATSUKI                             |")
+print("|                           MORDEX                              |")
 print("+===============+===============+===============+===============+")
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("saitama", API_ID, API_HASH)
